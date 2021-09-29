@@ -33,12 +33,16 @@ namespace test_project
                     Console.WriteLine( "High score" );
                     break;
                 case 4:
-                    Console.WriteLine( "Exit" );
+                    exitScreen();
                     break;
                 default :
                     Console.WriteLine( "This is an invalid command" );
                     break;
             }
+        }
+        static void exitScreen()
+        {
+            Console.WriteLine( "Thsnks for using our application" );
         }
     }
 }
