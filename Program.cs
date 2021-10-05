@@ -6,9 +6,12 @@ namespace test_project
     {
         static void Main(string[] args)
         {
-            mainMenu();
+            int gil = 100;
+            mainMenu( ref gil );
+            Console.WriteLine( gil );
+            
         }
-        static void mainMenu()
+        static void mainMenu( ref int gil )
         {
             Console.WriteLine( "Welcome to the MIS game zone" );
             Console.WriteLine( "press 1 for Pig." );
@@ -17,14 +20,15 @@ namespace test_project
             Console.WriteLine( "press 4 to exit the program" );
             string menuInput = Console.ReadLine();
             int menuSelection = Int32.Parse( menuInput );
-            menuSwitch( menuSelection );
+            menuSwitch( menuSelection, ref gil );
         }
-        static void menuSwitch( int menuSelection )
+        static void menuSwitch( int menuSelection, ref int gil )
         {
             switch (menuSelection)
             {
                 case 1:
                     Console.WriteLine( "Pig" );
+                    pigGame( ref gil );
                     break;
                 case 2:
                     Console.WriteLine( "Blackjack dice" );
@@ -43,6 +47,12 @@ namespace test_project
         static void exitScreen()
         {
             Console.WriteLine( "Thsnks for using our application" );
+        }
+        static void pigGame( ref int gil )
+        {
+            Console.WriteLine( "Welcome to pig" );
+            Console.WriteLine( gil );
+            gil = gil + 20;
         }
     }
 }
