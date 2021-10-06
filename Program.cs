@@ -51,6 +51,7 @@ namespace test_project
         static void exitScreen()
         {
             Console.WriteLine( "Thanks for using our application" );
+            Environment.Exit( 0 );
         }
         static void pigGame( ref int gil )
         {
