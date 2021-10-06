@@ -59,5 +59,10 @@ namespace test_project
             Console.WriteLine( gil );
             gil = gil + 20;
         }
+        static void winnerScreen()
+        {
+            Console.WriteLine( "A winner is you" );
+            exitScreen();
+        }
     }
 }
