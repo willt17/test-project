@@ -7,12 +7,11 @@ namespace test_project
         static void Main(string[] args)
         {
             int gil = 100;
-            while ( gil > 0 )
+            while ( gil > 0 && gil < 300 )
             {
                   mainMenu( ref gil );
             }
-            Console.WriteLine( "You are out of Gil" );
-            exitScreen();
+            gilCheck( ref gil );
             
         }
         static void mainMenu( ref int gil )
@@ -63,6 +62,17 @@ namespace test_project
         {
             Console.WriteLine( "A winner is you" );
             exitScreen();
+        }
+        static void gilCheck( ref int gil )
+        {
+            if ( gil >= 300 )
+            {
+                winnerScreen();
+            }
+            else
+            {
+                exitScreen();
+            }
         }
     }
 }
