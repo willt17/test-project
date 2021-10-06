@@ -34,7 +34,7 @@ namespace test_project
                     pigGame( ref gil );
                     break;
                 case 2:
-                    Console.WriteLine( "Blackjack dice" );
+                    blackjackGame( ref gil );
                     break;
                 case 3:
                     Console.WriteLine( "High score" );
@@ -63,6 +63,17 @@ namespace test_project
             Console.WriteLine( "A winner is you" );
             exitScreen();
         }
+        static void loserScreen()
+        {
+            Console.WriteLine( "You are out of Gil." );
+            exitScreen();
+        }
+        static void blackjackGame( ref int gil )
+        {
+            Console.WriteLine( "Welcome to blackjack" );
+            Console.WriteLine( gil );
+            gil = gil - 20;
+        }
         static void gilCheck( ref int gil )
         {
             if ( gil >= 300 )
@@ -71,7 +82,7 @@ namespace test_project
             }
             else
             {
-                exitScreen();
+                loserScreen();
             }
         }
     }
