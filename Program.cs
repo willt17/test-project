@@ -7,8 +7,12 @@ namespace test_project
         static void Main(string[] args)
         {
             int gil = 100;
-            mainMenu( ref gil );
-            Console.WriteLine( gil );
+            while ( gil > 0 )
+            {
+                  mainMenu( ref gil );
+            }
+            Console.WriteLine( "You are out of Gil" );
+            exitScreen();
             
         }
         static void mainMenu( ref int gil )
@@ -46,7 +50,7 @@ namespace test_project
         }
         static void exitScreen()
         {
-            Console.WriteLine( "Thsnks for using our application" );
+            Console.WriteLine( "Thanks for using our application" );
         }
         static void pigGame( ref int gil )
         {
