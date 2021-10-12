@@ -14,3 +14,19 @@ C:\Users\willt\Desktop\School Stuff\projects\test-project\obj\Debug\net5.0\test-
 C:\Users\willt\Desktop\School Stuff\projects\test-project\obj\Debug\net5.0\ref\test-project.dll
 C:\Users\willt\Desktop\School Stuff\projects\test-project\obj\Debug\net5.0\test-project.pdb
 C:\Users\willt\Desktop\School Stuff\projects\test-project\obj\Debug\net5.0\test-project.genruntimeconfig.cache
+C:\users\willt\mis221-pa2-willt17\test-project\obj\Debug\net5.0\test-project.csproj.AssemblyReference.cache
+C:\users\willt\mis221-pa2-willt17\test-project\obj\Debug\net5.0\test-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\willt\mis221-pa2-willt17\test-project\obj\Debug\net5.0\test-project.AssemblyInfoInputs.cache
+C:\users\willt\mis221-pa2-willt17\test-project\obj\Debug\net5.0\test-project.AssemblyInfo.cs
+C:\users\willt\mis221-pa2-willt17\test-project\obj\Debug\net5.0\test-project.csproj.CoreCompileInputs.cache
+C:\users\willt\mis221-pa2-willt17\test-project\obj\Debug\net5.0\test-project.dll
+C:\users\willt\mis221-pa2-willt17\test-project\obj\Debug\net5.0\ref\test-project.dll
+C:\users\willt\mis221-pa2-willt17\test-project\obj\Debug\net5.0\test-project.pdb
+C:\users\willt\mis221-pa2-willt17\test-project\bin\Debug\net5.0\test-project.exe
+C:\users\willt\mis221-pa2-willt17\test-project\bin\Debug\net5.0\test-project.deps.json
+C:\users\willt\mis221-pa2-willt17\test-project\bin\Debug\net5.0\test-project.runtimeconfig.json
+C:\users\willt\mis221-pa2-willt17\test-project\bin\Debug\net5.0\test-project.runtimeconfig.dev.json
+C:\users\willt\mis221-pa2-willt17\test-project\bin\Debug\net5.0\test-project.dll
+C:\users\willt\mis221-pa2-willt17\test-project\bin\Debug\net5.0\ref\test-project.dll
+C:\users\willt\mis221-pa2-willt17\test-project\bin\Debug\net5.0\test-project.pdb
+C:\users\willt\mis221-pa2-willt17\test-project\obj\Debug\net5.0\test-project.genruntimeconfig.cache
