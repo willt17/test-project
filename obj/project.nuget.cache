@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b+xFaWBATLSR4w5XG3qV5fjHmUxZyCnT4guDJQAPHe6IySbp2Xza7iMyq6+l/DX9YfM63YT5Jm+bDULIJ8p45A==",
+  "dgSpecHash": "unWeQvr+KlQJ4nr0AuO50GMb+4I8qo+atfL25iEFJO3gQMM8Jcz33WKNh6z65ZKgO0JlWcjo+0y5Q1JpANrEeQ==",
   "success": true,
-  "projectFilePath": "C:\\users\\willt\\mis221-pa2-willt17\\test-project\\test-project.csproj",
+  "projectFilePath": "C:\\Users\\willt\\test-project\\test-project.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
